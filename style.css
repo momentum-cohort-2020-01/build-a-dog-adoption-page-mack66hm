@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
 }
 
 .header{
@@ -14,11 +14,16 @@ body{
     padding: 1rem;
 }
 img{
-    width: 300px;
+    max-width: 100%;
 }
-
+.adopt{
+    padding: 1rem;
+}
+h3{
+    font-family: "Oswald";
+}
 .info{
-    margin: 1rem;
+    margin: 3px;
     width: 30%;
 }
 
@@ -40,14 +45,45 @@ li {
     margin-right: .5rem ;
     background-color:#7CDFF4 ;
     margin-bottom: .5rem;
+    border-radius: 15px;
+    padding: .5rem;
 }
 .description{
     display: flex;
     flex-wrap: wrap;
 }
-
-.footer{
-    padding: 1rem;
+.end{
+    height: 300px;
+    display: flex;
+}
+.donate{
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url(starter_files/images/donate.jpg) center/cover;
+    display: flex;
+    width: 33.3%;
+    height: 300px;
+}
+.volunteer{
+    background: 
+    linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)),
+    url(starter_files/images/volunteer.jpg) center/cover;
+    width: 33.3%;
+    display: flex;
+    height: 300px;
+}
+.location{
+    background: 
+    linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)),
+    url(starter_files/images/location.png) center/cover;
+    width: 33.3%;
+    display: flex;
+    height: 300px;
+}
+.text{
     display: flex;
     flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Oswald";
 }
